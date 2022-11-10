@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Features</title>
+ <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@1,700&display=swap" rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Caudex:ital,wght@0,700;1,700&display=swap" rel="stylesheet">
+	<style>
+body{
+  font-family: monokia;
+  margin: 0;
+  color: black;
+  line-height: 2.0;
+  background-color: #965425;
+}
+.logo{
+  float: left;
+  clear: right;
+}
+a{
+  text-decoration: none;
+  color: black;
+}
+nav{
+  height: 80px;
+  width: 100%;
+  background-color: black;
+  position: unset;
+}
+nav ul{
+  padding: 0;
+  margin: 0;
+}
+nav li{
+  display: inline;
+  float: left;  
+}
+nav a{
+  display: inline-block;
+  width: 200px;
+  text-align: center;
+  font-size: 20px;
+  text-decoration: none;
+  padding: 25px 0;
+  color: ghostwhite;
+}
+nav li:hover{
+  /*background-color: lightslategrey;*/
+  /*transform: scale(1.1,1);*/
+}
+nav li a:hover{
+  color: #B87333;
+  transition-duration: 0.3s;
+} 
+.container{
+  max-height: 1100px;
+  text-align: center;
+  margin: 0 auto;
+  padding: 0 3rem;
+}
+.lead{
+  font-size: 1.3rem;
+}
+.images:hover{
+  border-radius: 10%;
+  transition-duration: 1s;
+  transition-delay: 0.2s;
+  transform: scale(1.1);
+}
+.vid{
+  padding-right: 30px;
+  float: left;
+  clear: right;
+  margin-left: 10px;
+}
+.images{
+  padding: 10px;
+}
+.images2{
+  float: right;
+  clear: left;
+  height: 50vh;
+ width: 90vh;
+  margin-left: 25px;
+}
+.images3{
+ height: 50vh;
+ width: 90vh;
+ float: left;
+ clear: right;
+ margin-right: 30px;
+}
+.images4{
+ height: 50vh;
+ width: 90vh;
+ float: right;
+ clear: left;
+  margin-left: 20px;
+}
+.images5{
+ height: 50vh;
+ width: 90vh;
+ float: left;
+ clear: right;
+ margin-right: 30px;
+}
+#para1_heading{
+ font-size: 4vh;
+ font-family: 'Noto Serif', serif;
+ margin-right: 10px;
+ color: white;
+}
+#para2_heading{
+ font-size: 4vh;
+ font-family: 'Noto Serif', serif;
+ margin-left: 10px;
+ color: white;
+}
+#para3_heading{
+ font-size: 4vh;
+ font-family: 'Noto Serif', serif;
+ margin-right: 10px;
+ color: white;
+}
+#para4_heading{
+ font-size: 4vh;
+ font-family: 'Noto Serif', serif;
+ margin-left: 10px;
+ color: white;
+}
+#para5_heading{
+ font-size: 4vh;
+ font-family: 'Noto Serif', serif;
+ margin-right: 10px;
+ color: white;
+}
+#para1_theory{
+  font-size: 3vh;
+  margin-right: 10px;
+}
+#para2_theory{
+  font-size: 3vh;
+  margin-left: 10px;
+}
+#para3_theory{
+  font-size: 3vh;
+  margin-right: 10px;
+}
+#para4_theory{
+  font-size: 3vh;
+  margin-left: 10px;
+}
+#para5_theory{
+  font-size: 3vh;
+  margin-right: 10px;
+}
+
+.para1_background{
+  background-color: rgba(255, 255, 255, 0.4);
+  margin-right: 10px;
+  margin-left: 10px; 
+}
+.para2_background{
+  background-color: rgba(255, 255, 255, 0.4);
+  margin-right: 10px;
+  margin-left: 10px; 
+}
+.para3_background{
+  background-color: rgba(255, 255, 255, 0.4);
+  margin-right: 10px;
+  margin-left: 10px; 
+}
+.para4_background{
+  background-color: rgba(255, 255, 255, 0.4);
+  margin-right: 10px;
+  margin-left: 10px; 
+}
+.para5_background{
+  background-color: rgba(255, 255, 255, 0.4);
+  margin-right: 10px;
+  margin-left: 10px; 
+}
+h1{
+  font-size: 10vh;
+  text-align: left;
+  font-family: 'Caudex', serif;
+  background-image: linear-gradient(rgba(150,84,37,0.6),rgba(150,84,37,0.4)) ,url('photos/photo3.jpg');
+}
+.bold1{
+  font-size: 20vh;
+  color: black;
+  background-color: rgba(255,255,255, 0.5);
+  border-radius: 45%;
+}
+.bold2{
+  color: whitesmoke;
+}
+.bold3{
+  font-size: xxx-large;
+  color: whitesmoke;
+}
+.bold4{
+  font-size: 20vh;
+  color: black;
+  color: whitesmoke;
+  background-color: rgba(1,1,1,0.5);
+  border-radius: 45%;
+}
+.bold5{
+  color: black;
+}
+
+@media screen and (max-width: 1167px){
+    .logo {
+      width: 20%;
+      font-size: 50%;
+    }
+    nav, nav li{
+      width: 100%;
+      text-align: center;
+      background-color:  #1C2833;
+    }
+   }
+   @media screen and (max-width: 1159px){
+    #para2_heading{
+      top: 10%;
+    }
+   }
+   @media screen and (max-width: 692px){
+    body{
+      width: 100%;
+    }
+    @media screen and (max-width: 802px){
+      .heading{
+        /*font-size:50%;*/
+        /*text-align-last: justify;*/
+        /*text-align: justify;*/
+      }
+    }
+
+
+	</style>
+</head>
+<body>
+  <img class="logo" src="images/logo/logo4R.png" width="14.3%" height="8%">
+<header><!-- CONTAINER-->
+  		  <nav>
+  			  <ul>
+  				  <li>
+  					  <a href="projectCFH.html">Home</a>
+  				  </li>
+  				  <li>
+  					  <a href="features.html">Features</a>
+  				  </li>
+  				  <li>
+  					  <a href="product.html">Products</a>
+  				  </li>
+            <li>
+  			      <a href="contact.html">Contact</a>
+            </li>
+            <li>
+              <a href="aboutUs.html">About Us</a>
+            </li>
+          </ul>
+  		  </nav>
+</header>
+<h1 class="heading"><span class="bold1">F</span><span class="bold2">eatures<span class="bold3"> and </span><span class="bold4">F</span><span class="bold5">urniture</span></h1>
+   <video autoplay loop muted plays-inline controls class="vid" src="photos/vedio.mp4"width="50%" height="30%"></video>
+
+   <p class="para1"><div id="para1_heading">"Give the ease to our customer to design furniture themselves with a graphic tool".</div><br>
+    <div class="para1_background"><div id="para1_theory">Here we design a tool for our dear coustomers, where then can design the furniture in the real time, through which we are ensured about our coustomers need and choice..</div>
+  </div>
+   </p>
+   <div>
+   <!-- <img class="hint" src="photos/pointer.jpg" width="100px" height="100px"> -->
+   <img class="images images2" src="photos/feature5.jpg"><br>
+   <p class="para2"><div id="para2_heading">"The Easiest and cost effective way to sell custom furniture."</div><br>
+    <div class="para2_background"><div id="para2_theory">You can make the design trendy by providing images for each option. It is very cost effective to code and also provide your customer the ability and still simplicity too..With our smart algorithm these forms or designs get auto created as per the product in required..Here we give opportunity to our customer to design themselves their furniture.</div>
+    </div>
+   </p>
+   </div>
+   <br>
+   <div>
+   <!-- <img class="hint" src="photos/pointer.jpg" width="100px" height="100px"> -->
+    <img class="images images3" src="photos/feature6.jpg">
+    <p class="para3"><div id="para3_heading">"Safe Delivery of product to your destination"</div><br>
+    <div class="para3_background"><div id="para3_theory">Once you buy a product from us , then its our responsibility to dilever that product safely to your destination , the product should be safe from inside as well as from outside, means we ensure that the working of product would be ok.</div>
+  </div>
+   </p>
+   </div>
+   <br><br>
+   <div>
+   <!-- <img class="hint" src="photos/pointer.jpg" width="100px" height="100px"> -->
+   <img class="images images4" src="photos/feature7.jpg"><br><br><br>
+   <p class="para4"><div id="para4_heading">"High quality Images with Zoom in fuctionality"</div><br>
+   <div class="para4_background"><div id="para4_theory">Here we provide clear and bold pictures of our furniture items, and when your will visit here to our place, you will notice the the picture clickes or shown on the website portal are exact same as the product. Even the colors shown on the websites are also same as of product we have. Which built a bond of trust between us and the coustomers.<br><br></div>
+ </div>
+   </p>
+   </div>
+   <div>
+    <!-- <img class="hint" src="photos/pointer.jpg" width="100px" height="100px"> -->
+    <img class="images images5" id="feat" src="photos/feature8.jpg"><br>
+    <p class="para5"><div id="para5_heading">"Dimentions of our product"</div>
+    <div class="para5_background"><div id="para5_theory">Product Dimentions matter most in case of Furniture. It is an item which is not easily replaceable. Being high cost involved in shopping you also need to ensure least return. So we provide our coustomer with a detailed dimention of each product.</div>
+    </div>
+    </p><br>
+      
+   </div>
+   </body>
+</html>

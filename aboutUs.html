@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>About Us</title>
+</head>
+<style>
+
+    *{
+    	margin: 0px;
+    	padding: 0px;
+    	box-sizing: border-box;
+    }
+
+	body background-image {
+    background-repeat: no-repeat;
+    position: absolute;
+    }
+	.logo{
+		float: left;
+		clear: right;
+		/*background-color: black;*/
+	}
+	#para{
+		font-size: 3.5vh;
+		padding: 15px;
+		color: black;
+	}
+	#paragraph1{
+		font-size: 3vh;
+		padding-left: 15px;
+		color: black;
+		color: rgb(0, 0, 0);
+		z-index: -1;
+	}
+	#paragraph2{
+		font-size: 3vh;
+		padding: 15px;
+		color: whitesmoke;
+		text-align: center;
+	}
+	.pa{
+		text-align: center;
+		font-size: 3vh;
+	}
+	#image1{
+		float: left;
+		clear: right;
+		margin-left: 20px;
+		margin-right: 20px;
+	}
+	#image1:hover{
+		border-radius: 30%;
+		transition-duration: 0.5s;
+	}
+	#image3{
+		float: right;
+		clear: left;
+	}
+	#image3:hover{
+		border-radius: 30%;
+		transition-duration: 0.5s;
+	}
+	#image4{
+		float: left;
+		clear: right;
+		margin-right: 10px;
+		margin-left: 10px;
+		
+	}
+	#image4:hover{
+		border-radius: 30%;
+		transition-duration: 0.5s;
+	}
+	body{
+    font-family: monokia;
+    margin: 0;
+    color: black;
+    line-height: 2.0;
+    background-color: whitesmoke;
+    }
+    a{
+    text-decoration: none;
+    color: black;
+    }
+    h1{
+	padding: 15px;
+	font-size: largest;
+	text-align: center;
+    }
+    nav{
+    height: 80px;
+    width: 100%;
+    background-color: black;
+    position: unset;
+    }
+    nav ul{
+    padding: 0;
+    margin: 0;
+    }
+    nav li{
+    display: inline;
+    float: left;
+    
+    }
+    nav a{
+    display: inline-block;
+    width: 200px;
+    text-align: center;
+    font-size: 20px;
+    text-decoration: none;
+    padding: 25px 0;
+    color: ghostwhite;
+    }
+    nav li:hover{
+    /*background-color: lightslategrey;*/
+    /*transform: scale(1.1,1);*/
+    }
+    nav li a:hover{
+    color: #B87333;
+    transition-duration: 0.3s;
+    }
+    .container{
+    max-height: 1100px;
+    margin: 0 auto;
+    padding: 0 ;
+    }
+    .lead{
+    font-size: 1.3rem;
+    }
+    .backVedio{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+    opacity: 40%;
+    }
+    .last-para{
+		width: 100%;
+		height: 100%;
+	}
+	.last-content{
+		background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.5)) ,url('photos/furniture1.jpg');
+		background-size: cover;
+		width: 100%;
+		height: 100vh;
+	}
+	.raw{
+		font-size: 40px;
+	}
+   /*--------------------------------------------RESPONSIVENESS------------------------------------*/
+   @media screen and (max-width: 1167px){
+   	.logo {
+   		width: 20%;
+   		font-size: 50%;
+   	}
+   	nav, nav li{
+   		width: 100%;
+   		text-align: center;
+   		background-color:  #1C2833;
+   	}
+   }
+
+   
+   @media screen and (max-width: 1490px){
+   	 .backVedio{
+   	    background-repeat: repeat-y;
+        top: 20%;
+        height: 200%;
+        
+   	}
+   	nav, nav li{
+   		width: 100%;
+   		text-align: center;
+   		background-color:  #1C2833;
+   	}
+   }
+   @media screen and (max-width: 507px){
+   	 .backVedio{
+   	    background-repeat: repeat-y;
+        top: 10%;
+        height: 300%;
+        
+   	}
+   }
+   @media screen and (max-width: 413px){
+   	 .backVedio{
+   	    background-repeat: repeat-y;
+        top: 10%;
+        height: 400%;
+        
+   	}
+   }
+    @media screen and (max-width: 332px){
+   	 .backVedio{
+   	    background-repeat: repeat-y;
+        top: 20%;
+        height: 400%;
+        
+   	}
+   }
+    @media screen and (max-width: 323px){
+   	 .backVedio{
+   	    background-repeat: repeat-y;
+        top: 20%;
+        height: 400%;
+        
+   	}
+   }
+    @media screen and (max-width: 221px){
+   	 .backVedio{
+   	    background-repeat: repeat-y;
+        top: 20%;
+        height: 1000%;
+    }
+   }
+   @media screen and (max-width: 669px){
+   	 .last-content{
+   	 	background-repeat: repeat-y;
+   	 	top: 45%;
+        height: 200%;
+
+   	 }
+   }
+    /*--------------------------------------------RESPONSIVENESS------------------------------------*/
+</style>
+<body>
+<img class="logo" src="images/logo/logo4R.png" width="14.3%" height="8%">
+<video  autoplay loop muted plays-inline class="backVedio" src="photos/bgVideo.mp4"></video>
+
+	<header><!-- CONTAINER-->
+  		  <nav>
+  			  <ul>
+  				  <li>
+  					  <a href="projectCFH.html">Home</a>
+  				  </li>
+  				  <li>
+  					  <a href="features.html">Features</a>
+  				  </li>
+  				  <li>
+  					  <a href="product.html">Products</a>
+  				  </li>
+                  <li>
+  			          <a href="contact.html">Contact</a>
+                  </li>
+                   <li>
+  					  <a href="aboutUs.html">About Us</a>
+  				  </li>
+                </ul>
+  		  </nav>
+  	  </header>
+<h1><u>ABOUT US</u></h1>
+
+<p><i><div id="para" class="pa"><b>Chirag Furniture House was established in year 2018</b>.</i><br>
+</t><u><b>Our MOTO is to focus on the Quality of the product, beautifully designed furniture at a great price with exceptional services.</b></u><br>
+Our coustomers seems to be happy with what we manufactures and what we sold to them.
+Our customers are passionate about great design and to find furniture to inspire and excite our coustomers,the pieces the choose are always of the higher quality  and wortht of our 15-years of warranty.
+</div>
+</p>
+<p id="paragraph1">
+	<div class="pa">
+	Our Profession<br>
+	<i><b>At Chirag Furniture House</b></i>, we take pride in selling beautiful furniture that can last a lifetime and in building strong and lasting relationship with the passionate, dedicated people we work with.<br>
+	We welcome people form all backgrounds who share our core values - <u>Integrity</u>, <u>Passion for quality craftmanship</u> and <u>Commitments to exceptional customer services</u>.
+	</div> 	
+</p>
+
+<div class="last-content">
+		<!-- <img class="bground" src="photos/furniture.jpg"> -->
+
+		<div class="last-para">
+			<p id="paragraph2"><u><b><span class="raw">The Raw Material which we use are:-</span></b></u> <br> >Sagvan Tree Wood <br> >Teak Tree
+				Wood
+				<br> >Sal Tree Wood <br> >Ply <br> >90mm Water-Proof Ply <br> >And Other Depends Upon Coustomer
+				Requirement.<br>
+				<u><span class="raw">Some of the Polishes which we use are:-</span></u><br> >PU-Matte Polish <br> >PU-Glosy Polish <br> >Melamine
+				Poloish<br> >Water-Proof Polish.<br> >And Other Depends Upon Coustomer Requirement.
+
+			</p>
+		</div>
+	</div>
+</body>
+</html>
